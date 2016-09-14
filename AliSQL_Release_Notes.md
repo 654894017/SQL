@@ -8,7 +8,7 @@ AliSQL has been an open source project since August 2016. It is being actively d
 
 ## Functionality Added or Changed
 
-### SELECT FOR UPDATE WAIT
+### 1. SELECT FOR UPDATE WAIT
 
 **Description:**
 
@@ -29,7 +29,7 @@ NO
 Timeout error:
 "ERROR 1205 (HY000): Lock wait timeout exceeded; try restarting transaction;"
 
-### THD memory usage monitor
+### 2. THD memory usage monitor
 
 **Description:**
 
@@ -49,7 +49,7 @@ NO
 2. SHOW FULL PROCESSLIST;
 ```
 
-### DDL fast fail
+### 3. DDL fast fail
 
 **Description:**
 
@@ -66,7 +66,7 @@ NO
 2. DROP TABLE [WAIT [n]|NO_WAIT]
 ```
 
-### Support big column compress
+### 4. Support big column compress
 
 **Description:**
 
@@ -133,7 +133,7 @@ CREATE TABLE t(
 )CHARACTER SET GBK ENGINE=INNODB;
 ```
 
-### Innodb_rseg table to display the rollback information.
+### 5. Innodb_rseg table to display the rollback information.
 
 **Description:**
 
@@ -150,7 +150,7 @@ NO
 SELECT * FROM INFORMATION_SCHEMA.INNODB_RSEG
 ```
 
-### Thread running control
+### 6. Thread running control
 
 **Description:**
 
@@ -191,7 +191,7 @@ returned to client.
 
 no
 
-### Kill idle transactions
+### 7. Kill idle transactions
 
 **Description:**
 
@@ -234,7 +234,7 @@ Terminate idle transactions safely in server layer by setting up socket timeout 
 NO
 
 
-### table/index statistics
+### 8. table/index statistics
 
 **Description:**
 
@@ -271,7 +271,7 @@ SELECT * FROM TABLE_STATISTICS;
 SELECT * FROM INDEX_STATISTICS;
 ```
 
-### Throttle InnoDB IOPS for sql statement
+### 9. Throttle InnoDB IOPS for sql statement
 
 **Description:**
 
@@ -301,7 +301,7 @@ SET SESSION RDS_SQL_MAX_IOPS=100;
 ```
 
 
-### SQL filter
+### 10. SQL filter
 
 **Description:**
 
@@ -347,7 +347,7 @@ delete all rules:
 SET GLOBAL reset_all_filter = 1;
 ```
 
-### Relax gtid limitation for some statements
+### 11. Relax gtid limitation for some statements
 
 **Description:**
 
@@ -385,7 +385,7 @@ NO
 
 ## Performance improvement
 
-### Optimize log_write_up_to logic
+### 1. Optimize log_write_up_to logic
 
 **Description:**
 
@@ -403,7 +403,7 @@ NO
 
 NO
 
-### Split LOCK_grant lock
+### 2. Split LOCK_grant lock
 
 **Description:**
 
@@ -420,7 +420,7 @@ NO
 
 NO
 
-### Build jemalloc statically into mysqld
+### 3. Build jemalloc statically into mysqld
 
 **Description:**
 
@@ -435,7 +435,7 @@ NO
 
 NO
 
-### Redo log group commit at server layer
+### 4. Redo log group commit at server layer
 
 **Description:**
 
@@ -454,7 +454,7 @@ NO
 
 NO
 
-### Merge InnoDB AIO request
+### 5. Merge InnoDB AIO request
 
 **Description:**
 
@@ -474,7 +474,7 @@ NO
 
 NO
 
-### Split redo log buffer to rotate log write
+### 6. Split redo log buffer to rotate log write
 
 **Description:**
 
@@ -497,7 +497,7 @@ NO
 
 NO
 
-### Partition Lock_done and Lock_cond
+### 7. Partition Lock_done and Lock_cond
 
 **Description:**
 
@@ -513,7 +513,7 @@ NO
 
 NO
 
-### Buffer pool list scan optimization
+### 8. Buffer pool list scan optimization
 
 **Description:**
 
@@ -532,7 +532,7 @@ NO
 NO
 
 
-### Provide adaptive algorithm for innodb concurrency tickets
+### 9. Provide adaptive algorithm for innodb concurrency tickets
 
 **Description:**
 
@@ -574,7 +574,7 @@ tickets, i.e
 
 NO
 
-### Optimize InnoDB read view creation
+### 10. Optimize InnoDB read view creation
 
 **Description:**
 
@@ -600,7 +600,7 @@ NO
 NO
 
 
-### Optimize check/grant of InnoDB table lock
+### 11. Optimize check/grant of InnoDB table lock
 
 **Description:**
 
@@ -624,7 +624,7 @@ NO
 NO
 
 
-### Partition btr_search_latch for AHI by index->id
+### 12. Partition btr_search_latch for AHI by index->id
 
 **Description:**
 
@@ -648,7 +648,7 @@ control the partition number of the latch.
 
 NO
 
-### Omit maintaining owned_gtid set if gtid is auto-generated
+### 13. Omit maintaining owned_gtid set if gtid is auto-generated
 
 **Description:**
 
@@ -680,7 +680,7 @@ the life cycle of GTID.
 NO
 
 
-### Optimize InnoDB read-only workload
+### 14. Optimize InnoDB read-only workload
 
 **Description:**
 
