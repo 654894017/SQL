@@ -38,11 +38,11 @@ This feature supply a way to monitor thd or query memory usage.
 - Memory\_used display current thread memory allocated.
 - Query\_memory\_used display current thd->query() memory allocated.
 
-*Parameters:*
+**Parameters:**
 
 NO
 
-*Usage:*
+**Usage:**
 
 ```SQL
 1. SHOW STATUS LIKE '%memory_used%'
