@@ -8,5 +8,5 @@ AliSQL has been an open source project since August 2016. It is being actively d
 
 # AliSQL benchmark
 [Performance benchmark ](https://github.com/xpchild/SQL/wiki/AliSQL-Performance-benchmark)
-
-# [AliSQL wiki](https://github.com/xpchild/SQL/wiki)
+# AliSQL wiki
+# [Wiki](https://github.com/xpchild/SQL/wiki)
