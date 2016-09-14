@@ -21,9 +21,9 @@ NO
 **Usage:**
 
 ```SQL
-1. SELECT ... FOR UPDATE [WAIT [n]|NO\_WAIT]
-2. SELECT ... LOCK IN SHARE MODE [WAIT [N]|NO\_WAIT]
-3. LOCK TABLE ... [WAIT [n]|NO\_WAIT]
+1. SELECT ... FOR UPDATE [WAIT [n]|NO_WAIT]
+2. SELECT ... LOCK IN SHARE MODE [WAIT [N]|NO_WAIT]
+3. LOCK TABLE ... [WAIT [n]|NO_WAIT]
 ```
 
 Timeout error:
@@ -62,7 +62,7 @@ NO
 **Usage:**
 
 ```SQL
-1. ALTER TABLE T [WAIT [n]|NO\_WAIT] ADD f INT
+1. ALTER TABLE T [WAIT [n]|NO_WAIT] ADD f INT
 2. DROP TABLE [WAIT [n]|NO_WAIT]
 ```
 
