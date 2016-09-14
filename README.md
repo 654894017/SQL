@@ -1,10 +1,9 @@
 # AliSQL
-AliSQL is a MySQL branch originated from Alibaba Group. It is based on the MySQL official release and has many feature and performance enhancement.  
+AliSQL is a MySQL branch originated from Alibaba Group. It is based on the MySQL official release and has many feature and performance enhancements.  
+AliSQL has proven to be very stable and efficient in production environment. It can be used as a free, fully compatible, enhanced and open source drop-in replacement for MySQL.  
 
-AliSQL has proven to be very stable and efficient in production environment, and can be used as a free, fully compatible, enhanced, open source drop-in replacement for MySQL.  
-
-AliSQL has been an open source project since August 2016. It is being actively developed by the engineers from Alibaba Group, 
-and includes patches from Percona, WebScaleSQL, and MariaDB. AliSQL is a community effort and everyone is encouraged to get involved.  
+AliSQL has been an open source project since August 2016. It is being actively developed by engineers from Alibaba Group.   
+Moreover, it includes patches from Percona, WebScaleSQL, and MariaDB. AliSQL is a community effort. Everyone is welcomed to get involved.
 
 # AliSQL Release Notes
 
