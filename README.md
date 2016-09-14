@@ -8,7 +8,7 @@ and includes patches from Percona, WebScaleSQL, and MariaDB. AliSQL is a communi
 
 # AliSQL Release Notes
 
-[Changes in AliSQL 5.6.32 (2016-09-15) ](https://github.com/xpchild/SQL/wiki/AliSQL-Performance-test)
+[Changes in AliSQL 5.6.32 (2016-09-15) ](https://github.com/xpchild/SQL/wiki/Changes-in-AliSQL-5.6.32-(2016-09-15))
 
 # AliSQL test
 [Performance test ](https://github.com/xpchild/SQL/wiki/AliSQL-Performance-test)
