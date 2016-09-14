@@ -42,5 +42,5 @@ Sysbench主要参数：
 ![](https://github.com/xpchild/SQL/blob/master/image001.png)
 
 ## 测试结论
-从以上的基准测试数据可以看到AliSQL版本，对比Oracle官方MySQL版本，有非常高的吞吐量提升，最高达到1倍，后续我们将陆续放出特点场景的测试。
+从以上的基准测试数据可以看到AliSQL版本，对比Oracle官方MySQL版本，有非常高的吞吐量提升，最高达到1倍，后续我们将陆续放出特点场景的测试。  
 另外，我们本次开源的版本是AliSQL5.6.32，相比AliSQL 5.6.16，性能略有降低，我们后续会持续性的把稳定，验证过的patch放出到AliSQL 5.6.32开源版本上，供大家测试和使用。
